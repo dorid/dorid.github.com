@@ -1,0 +1,302 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>丁勇的BLOG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Dori Ding">
+    
+    
+    
+    
+    <link rel="alternative" href="/atom.xml" title="丁勇的BLOG" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="丁勇的BLOG">丁勇的BLOG</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:dorid.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/19/垃圾回收算法的分类/" title="垃圾回收算法的分类" itemprop="url">
+  
+    <h1 itemprop="name">垃圾回收算法的分类</h1>
+    
+     
+           <p itemprop="description" >可以从不同的角度来划分垃圾回收算法
+按基本回收策略分
+
+引用计数
+无法解决循环引用
+
+
+标记-清除
+
+会产生内存碎片
+
+ 这种算法是如何识别需要回收的对象呢？从堆开始找到被引用的对象，又从这些对象找到对堆中其它对象的引用，最终形成一颗树。如果是多个线程就会有多颗树。没有在树中的对</p>
+        
+    
+    <time datetime="2014-11-19T04:40:52.000Z" itemprop="datePublished">11月 19 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/18/JAVA中的四种引用类型/" title="JAVA中的四种引用类型" itemprop="url">
+  
+    <h1 itemprop="name">JAVA中的四种引用类型</h1>
+    
+     
+           <p itemprop="description" >面试的时候被问到两个问题。
+
+你是怎么实现缓存的
+JAVA中的引用类型
+
+当面试官问到第二个问题的时候，脑海中突然想起在哪个地方看过关于JAVA引用类型的文章，就是想不起来。面完之后决定总结一下。
+
+强引用
+Object obj = new Object();这种就是强引用。当内</p>
+        
+    
+    <time datetime="2014-11-18T07:24:15.000Z" itemprop="datePublished">11月 18 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/18/写两个线程，一个线程打印1到52，另一个线程打印字母A到Z。打印顺序为12A34B56C-5152Z。要求用线程间的通信。/" title="写两个线程，一个线程打印1到52，另一个线程打印字母A到Z。打印顺序为12A34B56C...5152Z。要求用线程间的通信。" itemprop="url">
+  
+    <h1 itemprop="name">写两个线程，一个线程打印1到52，另一个线程打印字母A到Z。打印顺序为12A34B56C...5152Z。要求用线程间的通信。</h1>
+    
+     
+           <p itemprop="description" >12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747</p>
+        
+    
+    <time datetime="2014-11-18T01:32:54.000Z" itemprop="datePublished">11月 18 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/12/如何在mule里面使用https/" title="如何在mule里面使用https" itemprop="url">
+  
+    <h1 itemprop="name">如何在mule里面使用https</h1>
+    
+     
+           <p itemprop="description" >修改mule-config.xml配置文件
+
+把
+
+12&amp;lt;http:inbound-endpoint address=&quot;https://127.0.0.1:8881/xxx/xxx&quot;   exchange-pattern=&quot;request-response&quot; doc:nam</p>
+        
+    
+    <time datetime="2014-11-12T02:18:38.000Z" itemprop="datePublished">11月 12 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/11/MarkDownPad的LivePreview不自动更新/" title="markdownpad的LivePreview不自动更新" itemprop="url">
+  
+    <h1 itemprop="name">markdownpad的LivePreview不自动更新</h1>
+    
+     
+           <p itemprop="description" >为了认真地写BLOG，无意中发现了MarkDown。粗略研究了一下，用它来写文章确实不需要担心排版啥的。有HTML基础的程序猿几分钟就能上手。
+看了一下大家的评论发现windows平台下的MarkDown编辑器MarkDownPad。能根据输入的MarkDown源代码（暂且这样叫</p>
+        
+    
+    <time datetime="2014-11-11T14:28:34.000Z" itemprop="datePublished">11月 11 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/11/10/hello-world/" title="Hello World" itemprop="url">
+  
+    <h1 itemprop="name">Hello World</h1>
+    
+     
+           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
+        
+    
+    <time datetime="2014-11-10T05:11:37.000Z" itemprop="datePublished">11月 10 2014</time>
+  </a>
+</section>
+
+
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/面试题/" title="面试题">面试题<sup>2</sup></a></li>
+		
+			<li><a href="/tags/多线程/" title="多线程">多线程<sup>1</sup></a></li>
+		
+			<li><a href="/tags/mule/" title="mule">mule<sup>1</sup></a></li>
+		
+			<li><a href="/tags/缓存/" title="缓存">缓存<sup>1</sup></a></li>
+		
+			<li><a href="/tags/JVM/" title="JVM">JVM<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright"> © 2014 
+		
+		<a href="http://dorid.github.io/about" target="_blank" title="Dori Ding">Dori Ding</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+
+
+
+  </body>
+ </html>
